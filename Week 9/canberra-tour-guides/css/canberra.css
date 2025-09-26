@@ -1,1 +1,98 @@
+/* Canberra Tour Guides – canberra.css */
 
+/* --- Theme tokens (from Slide 5) --- */
+:root {
+  --teal-900: #112F33;  /* dark teal */
+  --aqua-300: #99E0E9;  /* light aqua */
+  --bluegrey-400: #9CB2B5; /* grey-blue */
+}
+
+/* --- Base --- */
+* { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--teal-900);
+  background-color: var(--aqua-300);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--teal-900);
+  color: white;
+  padding: 1.25rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  background: white;
+  color: var(--teal-900);
+  font-weight: 700;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 4px solid var(--bluegrey-400);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--teal-900);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+  background: var(--bluegrey-400);
+  color: #00242A;
+}
+
+nav a[aria-current="page"] {
+  background: var(--teal-900);
+  color: white;
+}
+
+main {
+  background: #ffffff;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--bluegrey-400);
+  border-radius: 0.5rem;
+}
+
+.content-block {
+  background: #F6FBFC;
+  border: 1px solid var(--bluegrey-400);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: x-small;
+  color: #ffffff;
+  background: var(--teal-900);
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
