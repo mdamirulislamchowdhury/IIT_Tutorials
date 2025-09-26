@@ -1,6 +1,6 @@
 # Canberra Tour Guides
 
-A simple multi-page site built for the Module 5 CSS tutorial/lab.
+A simple multi-page site built for the Module 9: HTML web programming - CSS
 
 ## Pages
 - Home (`index.html`)
