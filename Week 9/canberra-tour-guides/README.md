@@ -20,9 +20,3 @@ A simple multi-page site built for the Module 9: HTML web programming - CSS
 
 ## Run locally
 Open any HTML file in a browser (no build step).
-
-## Deploy on GitHub Pages
-1. Commit and push the repo.
-2. In your GitHub repo → **Settings** → **Pages**.
-3. Source: **Deploy from a branch** → select `main` and `/ (root)`.
-4. Save. Your site will publish at the URL GitHub provides.
